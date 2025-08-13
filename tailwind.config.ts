@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,6 +65,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// BrightPath Dental brand colors
+				dental: {
+					blue: 'hsl(var(--dental-blue))',
+					mint: 'hsl(var(--mint-green))',
+					sky: 'hsl(var(--soft-sky))',
+					'text-primary': 'hsl(var(--text-primary))',
+					'text-secondary': 'hsl(var(--text-secondary))'
 				}
 			},
 			borderRadius: {
